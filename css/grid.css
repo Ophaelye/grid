@@ -1,21 +1,43 @@
-footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: black;
-color: purple;
+
+section {
+  display: grid;
+  box-sizing: border-box;
 }
 
 div {
-    color: #B25A56;
-  }
-
-  div:focus,
-  div:hover {
-    color: navajowhite;
-  }
-
-@media (max-width: 640px){
-footer {
-  flex-direction: column;
+  text-align: center;
 }
+img {
+  width: 30%;
+}
+
+.staff {
+  grid-row-start: 1;
+}
+
+.goalkeepers {
+  grid-row-start: 2;
+}
+
+.defense {
+  grid-row-start: 3;
+}
+
+.mid {
+  grid-row-start: 4;
+}
+
+.strikers {
+  grid-row-start: 5
+}
+
+
+h2 {
+background-color: #CCCCCA;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin: 30px 60px 30px 60px;
+    -moz-border-radius:10px 0;
+-webkit-border-radius:10px 0;
+border-radius:10px 0;
 }
