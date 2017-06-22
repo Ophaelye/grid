@@ -7,9 +7,6 @@ section {
 div {
   text-align: center;
 }
-img {
-  width: 12%;
-}
 
 .staff {
   grid-row-start: 1;
@@ -40,4 +37,15 @@ background-color: #CCCCCA;
     -moz-border-radius:10px 0;
 -webkit-border-radius:10px 0;
 border-radius:10px 0;
+}
+
+img {
+  max-width: 30%;
+}
+@media (max-width: 640px){
+img {
+  flex-direction: column;
+  max-width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
